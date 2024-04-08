@@ -2,10 +2,12 @@
 using namespace std;
 int main()
 {
-    int i;
-    for(i=19;i<=190;i=i+19)
+    int i,n;
+    cout<<"enter a number ";
+    cin>>n;
+    for(i=1;i<=10;i++)
     {
-        cout<<i<<endl;
+        cout<<n*i<<endl;
     }
     
     return 0;

@@ -1,1 +1,3 @@
-#include<iostream>
+
+cout<<c;
+return 0;
