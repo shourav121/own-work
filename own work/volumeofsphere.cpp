@@ -2,11 +2,18 @@
 using namespace std;
 int main()
 {
-   float r,sphere;
-   cout<<"enter radius"<<endl;
-   cin>>r;
-   sphere=4/3*3.14*r*r*r;
-   cout<<"volume of sphere is "<<sphere<<endl;
+    int n;
+    cout<<"enter A NUMBER ";
+    cin>>n;
+     if((n%3==0) || (n%5==0))
+     {
+        cout<<"yes";
+     }
+     else
+     {
+        cout<<"no";
+
+     }
 
     return 0;
 }
