@@ -4,6 +4,7 @@ int main()
 {
 
     string str;
+    cout<<"enter your name";
     cin>>str;
     cout<<str;
 return 0;
@@ -19,7 +20,8 @@ using namespace std;
 int main()
 {
     string str;
+    cout<<"enter your sentence ";
     getline(cin,str);
     cout<<str;
-    return 0;
+
 }
