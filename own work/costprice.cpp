@@ -5,7 +5,7 @@ int main()
     int costprice,sellingprice;
     cout<<"enter cost price of product: ";
     cin>>costprice;
-    cout<<"enter selling price of product: ";
+    cout<<"enter selling pric of product: ";
     cin>>sellingprice;
     if(costprice>sellingprice)
     {
@@ -13,9 +13,9 @@ int main()
 
     }
     if(costprice<sellingprice)
-    {
+    
 
         cout<<"you are in profit "<<sellingprice-costprice<<" rupees."<<endl;
-    }
+    
     return 0;
 }
