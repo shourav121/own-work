@@ -18,9 +18,9 @@ void insertionSort(std::vector<int>& arr) {
 }
 
 int main() {
-    std::vector<int> arr = {64, 25, 12, 22, 11};
+    std::vector<int> arr = {64, 25, 12, 22, 11}
 
-    std::cout << "Original array: ";
+    std::cout << "Original array: "
     for (int num : arr) {
         std::cout << num << " ";
     }
