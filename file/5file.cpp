@@ -74,7 +74,7 @@ int main() {
     q.enqueue(30);
     q.enqueue(40);
 
-    std::cout << "Queue front element: " << q.peek() << std::endl;
+    std::cout << "Queue element: " << q.peek() << std::endl;
 
     q.display();
 
