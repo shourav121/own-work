@@ -21,6 +21,10 @@ class rectangle{
         b= r.b;
     }
 
+   /* ~rectangle(){
+        cout<<"deleted"<<endl;     //destructoe calls
+    }*/
+
 };
 
 
@@ -33,7 +37,7 @@ int main()
     cout<<r2.l<<" "<<r2.b<<endl;
 
     rectangle r3=r1;
-    cout<<r3.l<<" "<<r3.b;
+    cout<<r3.l<<" "<<r3.b<<endl;
 
     return 0;
 }
