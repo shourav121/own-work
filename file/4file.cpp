@@ -53,7 +53,7 @@ void mergeSort(std::vector<int>& arr, int l, int r) {
         mergeSort(arr, l, m);
         mergeSort(arr, m + 1, r);
 
-        // Merge the sorted halves
+        // Merge the sorted 
         merge(arr, l, m, r);
     }
 }
@@ -67,7 +67,7 @@ int main() {
     }
     std::cout << std::endl;
 
-    mergeSort(arr, 0, arr.size() - 1);
+    mergeSort(arr, 0,arr.size() - 1);
 
     std::cout << "Sorted array: ";
     for (int num : arr) {
