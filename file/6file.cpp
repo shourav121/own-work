@@ -67,7 +67,7 @@ int main() {
     q.dequeue();
     q.dequeue();
 
-    std::cout << "Queue front element after dequeue: " << q.peek() << std::endl;
+    std::cout << "Queue front element after dequeue: "<<q.peek() << std::endl;
 
     return 0;
 }
