@@ -89,7 +89,7 @@ int main() {
     bst.inOrder();
 
     int searchValue = 40;
-    if (bst.search(searchValue)) {
+    if (bst.search(searchValue)){
         std::cout << searchValue << " found in the BST." << std::endl;
     } else {
         std::cout << searchValue << " not found in the BST." << std::endl;
