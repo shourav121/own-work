@@ -23,14 +23,14 @@ public:
 
         // Recur for all the vertices adjacent to this vertex
         std::list<int>::iterator i;
-        for (i = adj[v].begin(); i != adj[v].end(); ++i)
+        for (i =adj[v].begin(); i != adj[v].end(); ++i)
             if (!visited[*i])
                 DFSUtil(*i, visited);
     }
 
     void DFS(int v) {
         // Mark all the vertices as not visited
-        bool *visited = new bool[V];
+        bool*visited = new bool[V];
         for (int i = 0; i < V; ++i)
             visited[i] = false;
 
