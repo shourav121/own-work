@@ -19,7 +19,7 @@ public:
     void BFS(int s) {
         // Mark all vertices as not visited
         bool *visited = new bool[V];
-        for (int i = 0; i < V; ++i)
+        for (int i = 0; i< V; ++i)
             visited[i] = false;
 
         // Create a queue for BFS
